@@ -11,49 +11,51 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar" href="#">Athena</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <a class="navbar-brand" href="athena.html">ATHENA</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
       </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="artist sign up.html">Sign Up</a>
+                </li>
+              <li class="nav-item dropdown">
+                    <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Categories
+                            </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Categories
-            </a>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Artists</a>
-              <a class="dropdown-item" href="#">Deejays</a>
-              <a class="dropdown-item" href="#">Socialites</a>
-              <a class="dropdown-item" href="#">Painters</a>
-              <a class="dropdown-item" href="#">Cinematograph</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">comedians</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-          </li>
-        </ul>
-        <form class="form-inline">
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+                              <a class="dropdown-item" href="music.html">Music</a>
+                              <a class="dropdown-item" href="artist.html">Artist</a>
+                              <a class="dropdown-item" href="cinematography.html">Cinematography</a>
+                            </div>
+                            </div>
+
+                          </div>
+
+              </li>
+          </ul>
+      </div>
+      <form class="form-inline">
        <div class="container h-100">
         <div class="d-flex justify-content-center h-100">
           <div class="searchbar">
-            <input class="search_input" type="text" name="" placeholder="Search...">
-            <a href="#" class="search_icon"><i class="fa fa-search"></i></a>
+            <input class="search_input" type="text" name="" placeholder="Search..." id="myInput" onkeyup="filterFunction()">
+            <a href="#" class="search_icon"><i class="fa fa-search" onclick="myFunction()"></i></a>
           </div>
         </div>
       </div>
      </form>
-      </div>
-    </nav><br>
+  </nav><br>
     <div class="jumbotron jumbotron-fluid">
       <h3 class="lead">your every event </h3>
       <h3 class="market">leading marketplace</h3>
@@ -90,7 +92,7 @@
     </div>
     </div>
 
-//Indentation bro 
+//Indentation bro
     <div class="jumbotron">
       <h3>Whats ATHENA all about</h3>
 
