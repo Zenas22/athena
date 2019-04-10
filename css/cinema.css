@@ -1,0 +1,9 @@
+
+.carousel-inner img {
+    width: 40%;
+    height: 60%;
+  }
+  body {
+    background-image: url(..//images/film.jpeg);
+    background-repeat: no-repeat;
+  }
