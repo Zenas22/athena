@@ -2,29 +2,31 @@
 This is a website that allows users to book artist of their preference and taste to perform at their event or function easily without the intermediary connections and contacts at the comfort of your home.
 
 ## Description
-
+With the artist profile constructors, user are able to book an artist to perform at event after searching through the various many artists on the page
 
 ## Dependencies
-
+HTML
+CSS
+JS
 
 
 ## BDD
-|    BEHAVIOR                   |     input     |    output      |
+|    BEHAVIOR                   |     INPUT     |    OUTPUT      |
 |------------------------------:|--------------:|---------------:|
-|student scores > 80            |    90         | you have passed|
+|User logins                    | login form    | Logged in      |
 |------------------------------:|--------------:|---------------:|
-|student scores between 80 to 60|    60         | average score  |
+|User search                    | Search input  | Artist card    |
 |------------------------------:|--------------:|---------------:|
-|student scores below 60        |    40         | failed         |
+|User book                      | Book button   | Email response |
 |------------------------------:|--------------:|---------------:|
 
 
 ## Setup/Installation Requirements
 * Open your browser browser.
 * Load gitHub on your browser.
-* Search for Lorddoyo/.... repository.
+* Search for Zenas22/.... repository.
 * Fork the data onto your own personal repository
-* [To access the live website, click here](https://lorddoyo.github.io/Quiz-Board/index.HTML)
+* [To access the live website, click here](https://zenas22.github.io/athena)
 
 
 ## Known Bugs
@@ -35,8 +37,12 @@ HTMl
 css
 JavaScript
 
+##Technologies To Be Added
+php
+database and server
+
 ## Support and contact details
-You can contact me at my email _johnkojo7777@gmail.com zenas2294@gmail.com_
+You can contact us at my email _johnkojo7777@gmail.com or zenas2294@gmail.com_
 
 ### License
 MIT License  Copyright (c) 2019 **ADANO GODANA ZENAS MULI MOHAMED MUHUMED RYAN MIANO ROBERT NJAU**
