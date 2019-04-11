@@ -117,7 +117,14 @@ body,html{
   color:white;
   }
 
-
+.parallax{
+    background-image: url(..//images/para.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+}
 
 
 
