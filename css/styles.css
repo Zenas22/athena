@@ -163,14 +163,14 @@ input[type=search]:focus {
   text-align: center;
 }
 .jumbotron{
-color: teal;
+
   height: 80%;
-  background-image: url(..//images/allevents.jpg);
-  background-image:no-repeat;
-  background-size: cover;
+  font-family: 'Shadows Into Light', cursive;
+
 }
 .cards{
   text-align: center;
+font-family: 'Jaldi', sans-seri
 }
 .about{
   text-align: center;
@@ -183,10 +183,10 @@ color: teal;
 .links{
   text-align: center;
   align-self: center;
-  background-color: grey;
+
 }
 .card-footer{
-  background-color: grey;
+
 }
 .container{
   width: 100%;
@@ -213,3 +213,53 @@ input[type=search]:focus {
    border-color: #333;
    border: solid 1px #fff;
 }
+#music{
+ text-align: center;
+}
+#main{
+  background-image: url(..//images/damn.jpg);
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+}
+.parallax{
+  background-image: url(..//images/malaya1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height:500px ;
+}
+.footers a {color:#696969;}
+.footers p {color:#696969;}
+.footers ul {line-height:30px;}
+#social-fb:hover {
+     color: #3B5998;
+     transition:all .001s;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+     transition:all .001s;
+ }
+ #social-gp:hover {
+     color: #d34836;
+     transition:all .001s;
+ }
+ #social-em:hover {
+     color: #f39c12;
+     transition:all .001s;
+ }
+ .fool{
+     background-color: ;
+     font-size: 25px;
+     padding: 10px;
+     margin-top: 5px;
+     margin-bottom: 100px;
+     margin-right: 15px;
+     margin-left:15px;
+ }
+ .centering{
+   text-align: center;
+   margin-right: 0%;
+ }
+ .jumbotron{
+   background-image: url(..//images/malaya1.jpg);
+ }

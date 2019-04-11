@@ -1,0 +1,95 @@
+.red{
+    color:red;
+    }
+.form-area
+{
+    background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+	}
+  body,html{
+     height: 100%;
+     width: 100%;
+     margin: 0;
+     padding: 0;
+
+     }
+
+     .searchbar{
+     margin-bottom: auto;
+     margin-top: auto;
+     height: 60px;
+     background-color: #353b48;
+     border-radius: 30px;
+     padding: 10px;
+     }
+
+     .search_input{
+     color: white;
+     border: 0;
+     outline: 0;
+     background: none;
+     width: 0;
+     caret-color:transparent;
+     line-height: 40px;
+     transition: width 0.4s linear;
+     }
+
+     .searchbar:hover > .search_input{
+     padding: 0 10px;
+     width: 450px;
+     caret-color:red;
+     transition: width 0.4s linear;
+     }
+
+     .searchbar:hover > .search_icon{
+     background: white;
+     color: #e74c3c;
+     }
+
+     .search_icon{
+     height: 40px;
+     width: 40px;
+     float: right;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 50%;
+     color:white;
+     }
+
+
+
+
+
+
+
+
+
+  .navbar {
+     position: relative;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0.5rem 1rem;
+     background:#222;
+     color: #f2f2f2;
+  }
+
+  input[type=search] {
+      background: #555 url(http://hp-proliant.co.uk/qual_images/mob-search-icon.png) no-repeat 9px center;
+      border: solid 1px #ccc;
+      padding: 9px 10px 9px 32px;
+      width: 55px;
+  }
+  input[type=search]:focus {
+      width: 600px;
+      background-color: #ccc;
+      border-color: #333;
+      border: solid 1px #fff;
+  }
+  body{
+    background-image: url(..//images/damn.jpg);
+  }
