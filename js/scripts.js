@@ -214,5 +214,4 @@ $('.tab a').on('click', function (e) {
   		}, 2000);
   	}
   }
-
-})(jQuery);
+})

@@ -1,0 +1,72 @@
+body {
+    background-image: url(..//images/damn.jpg);
+    background-repeat: no-repeat;
+    text-decoration-style: wavy;
+    background-size: cover;
+    width: 40%;
+    height:100%
+  }
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    text-transform: capitalize;
+    text-decoration-style: unset;
+    color: darkgoldenrod;
+    font-display: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .image-grid-cover {
+    width: 100%;
+    background-size: cover;
+    min-height: 180px;
+    position: relative;
+    margin-bottom: 30px;
+    text-shadow: rgba(0,0,0,.8) 0 1px 0;
+    border-radius: 4px;
+}
+.image-grid-clickbox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 90%;
+    height: 90%;
+    z-index: 20;
+    background: rgba(0,0,0,.45);
+}
+.cover-wrapper {
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    text-shadow: rgba(0,0,0,.8) 0 1px 0;
+    z-index: 21;
+    position: relative;
+    top: 80px;
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  justify-content: center;
+}
+.carousel-inner > .item > img {
+  margin: 0 auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 900px;
+  height: 500px;
+  justify-content: center;
+}
+
+
+
